@@ -4,13 +4,13 @@
 
 Since names are the smallest building block of code, they should follow some rules to be good.
 
-- Use intention-revealing names
-- Avoid disinformation
-- Make meaningful distinctions
-- Use pronounceable names
-- Use searchable names
-- Avoid encondings
-- Avoid mental mapping
+- **Use intention-revealing names**
+- **Avoid disinformation**
+- **Make meaningful distinctions**
+- **Use pronounceable names**
+- **Use searchable names**
+- **Avoid encondings**
+- **Avoid mental mapping**
 
 But, when we are talking about math formulas, some of these rules are difficult to follow. For example, take a look at this code:
 
@@ -23,5 +23,7 @@ for i in range(n):
 ```
 
 If you were trying to modify or debug this code, you'd be at a loss unless you could read the author's mind. Even if you were the author, a few days after writing this code you might not remember what it does because of the unhelpful variable names and use of _magic numbers_.
+
+
 
 
