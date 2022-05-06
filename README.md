@@ -1,5 +1,7 @@
 # MathCase
 
+A new convention for naming variables taken from math formulas.
+
 ## Tips for Creating Good Names for Variables
 
 Since names are the smallest building block of code, they should follow some rules to be good.
@@ -37,6 +39,15 @@ On this first point, while languages like Fortran did limit the length of variab
 
 Let's see an example that makes both mistakes. Say we have a polynomial equation for finding the price of a house from a model. You may be tempted to write the mathematical formula directly in code.
 
-![y=m_1 * x_1 + m_2 * x_2^2 + b](https://latex.codecogs.com/svg.latex?&space;y=m_1*x_1+m_2*x_2^2+b) 
+![y = m_1 * x_1 + m_2 * x_2^2 + b](https://latex.codecogs.com/svg.latex?&space;y=m_1*x_1+m_2*x_2^2+b) 
 
+```python
+temp = m1 * x1 + m2 * (x2 ** 2)
+final = temp + b
+```
+This code looks like it was written by a machine for a machine. While a computer will ultimately run your code, it'll be read by humans, so write code intended for humans. To do this, we need to think not about the formula itself (_the how_) and consider the real-world objects being modeled (_the what_). Then, rewriting the last example:
 
+```python
+house_price = price_per_room * rooms + \ price_per_floor_squared  * (floors ** 2) 
+house_price = house_price + expected_mean_house_price
+```
