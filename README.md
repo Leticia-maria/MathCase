@@ -24,6 +24,8 @@ for i in range(n):
 
 If you were trying to modify or debug this code, you'd be at a loss unless you could read the author's mind. Even if you were the author, a few days after writing this code you might not remember what it does because of the unhelpful variable names and use of _magic numbers_.
 
+Looking at scientific programming codes, it is often to see examples like above (or worse): code with variable names such as `X`, `y`, `xs`, `x1`, `x2`, `tp`, `tm`, `cif`, `reg`, `xi`, `yi`, `ii` and numerous unnamed constant values.
+
 
 
 
