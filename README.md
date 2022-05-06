@@ -22,6 +22,6 @@ for i in range(n):
             new_array[i][j][k] = temp_value + 150
 ```
 
-If you were trying to modify or debug this code, you'd be at a loss unless you could read the author's mind. Even if you were the author, a few days after writing this code you might not remember what it does because of the unhelpful variable names and use of magic numbers.
+If you were trying to modify or debug this code, you'd be at a loss unless you could read the author's mind. Even if you were the author, a few days after writing this code you might not remember what it does because of the unhelpful variable names and use of _magic numbers_.
 
 
